@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-from utils import get_first_day_of_week
+from etl.utils import get_first_day_of_week
 
 
 def create_directory_structure(root: str, category: str, partition: str):
