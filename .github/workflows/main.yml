@@ -24,6 +24,6 @@ jobs:
       run: |
         echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
     - name: Run tests
-      working-directory: etl
       run: |
+        cd etl
         pytest
