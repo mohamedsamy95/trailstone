@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
     - name: Update PYTHONPATH variable
       run: |
-        export PYTHONPATH=/trailstone/:$PYTHONPATH
+        echo "PYTHONPATH=trailstone" >> $GITHUB_ENV
     - name: Run tests
       working-directory: etl
       run: |
