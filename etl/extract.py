@@ -1,3 +1,4 @@
+import os
 import httpx
 import pandas as pd
 import datetime as dt
@@ -68,7 +69,7 @@ async def fetch_data(
         If the data cannot be parsed as expected.
     '''
 
-    url = f'http://127.0.0.1:8000/{endpoint}?api_key={api_key}'
+    url = f'http://{os.getenv('HOST')}:8000/{endpoint}?api_key={api_key}'
     response = await client.get(url)
 
     if response.status_code == 429:

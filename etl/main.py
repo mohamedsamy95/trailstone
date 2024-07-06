@@ -1,3 +1,4 @@
+import os
 import asyncio
 import logging
 import time
@@ -8,7 +9,7 @@ from etl.transform import transform_data
 from etl.quality_policies import NoGapsPolicy, NoNullValuesPolicy
 from etl.load import load_data
 
-API_KEY = 'ADU8S67Ddy!d7f?'
+API_KEY = os.getenv('API_KEY')
 OUTPUT_DIR = 'output'
 
 

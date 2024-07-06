@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  etl:
+    build: .
+    environment:
+      - API_KEY=ADU8S67Ddy!d7f?
+      - HOST=host.docker.internal
+    volumes:
+      - .:/app
+    command:
+      ["python", "etl/main.py"]
+    container_name: etl

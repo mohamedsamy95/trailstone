@@ -1,0 +1,559 @@
+2024-07-06 16:06:46,163 - __main__ - INFO - ETL pipeline started
+2024-07-06 16:06:46,277 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 16:06:46,293 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:46,310 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:46,314 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:46,315 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:46,315 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:46,316 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,285 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,319 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,319 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,319 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,319 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,319 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,320 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,320 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 16:06:47,358 - __main__ - INFO - ETL pipeline finished in 1.1949608325958252
+2024-07-06 17:59:21,349 - __main__ - INFO - ETL pipeline started
+2024-07-06 17:59:21,498 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 17:59:21,508 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:21,512 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:21,516 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:21,516 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:21,516 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:21,517 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,509 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,527 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 17:59:22,542 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,544 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,544 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,544 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,544 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:22,545 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:23,537 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 17:59:23,541 - __main__ - INFO - Data extraction completed in 2.1913418769836426s
+2024-07-06 17:59:23,558 - __main__ - ERROR - Wind data quality check failed: Data contains gaps.
+2024-07-06 17:59:23,558 - __main__ - ERROR - ETL pipeline failed: Wind data quality check failed: Data contains gaps.
+Traceback (most recent call last):
+  File "/Users/samy/Private/trailstone/etl_project/etl/main.py", line 46, in main
+    raise Exception(err_msg)
+Exception: Wind data quality check failed: Data contains gaps.
+2024-07-06 17:59:23,559 - __main__ - INFO - ETL pipeline finished in 2.2093820571899414s
+2024-07-06 18:00:32,744 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:00:32,774 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:00:32,787 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:32,789 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:32,789 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:32,789 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:32,789 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:32,790 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:33,791 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:33,801 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:00:33,806 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:00:33,807 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:00:33,818 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:33,818 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:33,819 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:33,819 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:34,827 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:34,827 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:34,828 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:00:34,833 - __main__ - INFO - Data extraction completed in 2.088460922241211s
+2024-07-06 18:00:34,842 - __main__ - ERROR - Wind data quality check failed: Data contains gaps.
+2024-07-06 18:00:34,842 - __main__ - ERROR - ETL pipeline failed: Wind data quality check failed: Data contains gaps.
+Traceback (most recent call last):
+  File "/Users/samy/Private/trailstone/etl_project/etl/main.py", line 46, in main
+    raise Exception(err_msg)
+Exception: Wind data quality check failed: Data contains gaps.
+2024-07-06 18:00:34,843 - __main__ - INFO - ETL pipeline finished in 2.0982630252838135s
+2024-07-06 18:01:29,151 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:01:29,185 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,188 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,190 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,191 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,191 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,191 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,191 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,203 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:01:29,217 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,218 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,218 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,218 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,218 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:29,218 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:30,210 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:01:30,214 - __main__ - INFO - Data extraction completed in 1.0626130104064941s
+2024-07-06 18:01:30,243 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:01:30,275 - __main__ - INFO - ETL pipeline finished in 1.1238760948181152s
+2024-07-06 18:09:08,700 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:09:08,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:09:08,735 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:08,735 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:08,736 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:08,736 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:08,736 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:08,736 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:09,723 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:09:11,739 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,754 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:09:11,769 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,771 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,771 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,772 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,772 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:11,775 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:12,761 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:09:12,764 - __main__ - INFO - Data extraction completed in 4.063256025314331s
+2024-07-06 18:09:12,775 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:09:12,801 - __main__ - INFO - ETL pipeline finished in 4.100838899612427s
+2024-07-06 18:11:33,256 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:11:33,302 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,303 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,303 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,303 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,304 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,304 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,304 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,321 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:11:33,321 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:11:33,329 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,331 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,331 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,331 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:33,331 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:34,334 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:34,334 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:11:34,338 - __main__ - INFO - Data extraction completed in 1.082205057144165s
+2024-07-06 18:11:34,352 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:11:34,380 - __main__ - INFO - ETL pipeline finished in 1.1239800453186035s
+2024-07-06 18:18:07,845 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:18:07,892 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:18:07,892 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:07,897 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:07,901 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:07,902 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:07,902 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:07,902 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,904 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,938 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,940 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,940 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,940 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,940 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,940 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,941 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:08,947 - __main__ - INFO - Data extraction completed in 1.1013829708099365s
+2024-07-06 18:18:08,960 - __main__ - ERROR - Wind data quality check failed: Data contains gaps.
+2024-07-06 18:18:08,960 - __main__ - ERROR - ETL pipeline failed: Wind data quality check failed: Data contains gaps.
+Traceback (most recent call last):
+  File "/Users/samy/Private/trailstone/etl_project/etl/main.py", line 46, in main
+    raise Exception(err_msg)
+Exception: Wind data quality check failed: Data contains gaps.
+2024-07-06 18:18:08,961 - __main__ - INFO - ETL pipeline finished in 1.1153149604797363s
+2024-07-06 18:18:33,803 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:18:33,845 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,848 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,850 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,851 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,851 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,852 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,852 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,897 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,897 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,898 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,898 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,899 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,899 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,899 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:18:33,904 - __main__ - INFO - Data extraction completed in 0.10138201713562012s
+2024-07-06 18:18:33,920 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:18:33,944 - __main__ - INFO - ETL pipeline finished in 0.14122605323791504s
+2024-07-06 19:12:31,417 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:12:31,543 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:12:31,544 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:31,547 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:31,549 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:31,550 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:31,551 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:31,551 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,550 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,564 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:12:32,717 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:32,718 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:33,578 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:12:33,583 - __main__ - INFO - Data extraction completed in 2.165532112121582s
+2024-07-06 19:12:33,607 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:12:33,636 - __main__ - INFO - ETL pipeline finished in 2.2193448543548584s
+2024-07-06 19:54:05,763 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:54:05,873 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:54:05,877 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:54:05,881 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:05,882 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:54:05,885 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:05,886 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:05,886 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,889 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,889 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,890 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,899 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:54:06,924 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,925 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,926 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,926 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,927 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:06,929 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:07,914 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:54:07,919 - __main__ - INFO - Data extraction completed in 2.1561479568481445s
+2024-07-06 19:54:07,949 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:54:07,977 - __main__ - INFO - ETL pipeline finished in 2.2145791053771973s
+2024-07-06 20:04:14,982 - __main__ - INFO - ETL pipeline started
+2024-07-06 20:04:15,015 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:04:15,044 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:04:15,055 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:15,058 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:15,059 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:15,059 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:15,060 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,030 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,052 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,063 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:04:16,063 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:04:16,088 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,092 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,093 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,094 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:16,094 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:17,084 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:17,084 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:04:17,089 - __main__ - INFO - Data extraction completed in 2.106761932373047s
+2024-07-06 20:04:17,106 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 20:04:17,135 - __main__ - INFO - ETL pipeline finished in 2.1533477306365967s
+2024-07-06 18:43:05,237 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:43:05,307 - __main__ - ERROR - ETL pipeline failed: All connection attempts failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 99, in handle_async_request
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 76, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 122, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 30, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 114, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/etl/main.py", line 27, in main
+    wind_data, solar_data = await extract_last_week_data(API_KEY)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 147, in extract_last_week_data
+    wind_results = await asyncio.gather(*wind_tasks)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 99, in fetch_data_with_sem
+    return await fetch_data(client, endpoint, api_key, file_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 72, in fetch_data
+    response = await client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+2024-07-06 18:43:05,312 - __main__ - INFO - ETL pipeline finished in 0.0748746395111084s
+2024-07-06 18:45:52,928 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:45:52,951 - __main__ - ERROR - ETL pipeline failed: All connection attempts failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 373, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 99, in handle_async_request
+    raise exc
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 76, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_async/connection.py", line 122, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/auto.py", line 30, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 114, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/etl/main.py", line 28, in main
+    wind_data, solar_data = await extract_last_week_data(API_KEY)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 147, in extract_last_week_data
+    wind_results = await asyncio.gather(*wind_tasks)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 99, in fetch_data_with_sem
+    return await fetch_data(client, endpoint, api_key, file_format)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/tenacity/__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/etl/extract.py", line 72, in fetch_data
+    response = await client.get(url)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1801, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1574, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1661, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1689, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1726, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1763, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 372, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/local/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/usr/local/lib/python3.12/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+2024-07-06 18:45:52,953 - __main__ - INFO - ETL pipeline finished in 0.02571845054626465s
+2024-07-06 18:50:18,791 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:50:18,865 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:18,951 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:18,952 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:18,981 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:18,992 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:18,994 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:18,997 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:19,878 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:19,961 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:19,964 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:21,991 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:22,019 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:22,020 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:50:22,028 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:22,033 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:22,036 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:22,036 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:22,037 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:23,051 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:23,056 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:50:23,071 - __main__ - INFO - Data extraction completed in 4.2796595096588135s
+2024-07-06 18:50:23,095 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:50:23,152 - __main__ - INFO - ETL pipeline finished in 4.36081600189209s
+2024-07-06 18:57:36,982 - __main__ - INFO - ETL pipeline started
+2024-07-06 18:57:37,053 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:57:37,084 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:37,086 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:37,087 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:37,098 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:37,099 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:37,099 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:38,092 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:38,120 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:57:38,130 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:57:38,136 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 18:57:38,183 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:38,184 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:38,186 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:38,189 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:39,149 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:39,158 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:39,161 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 18:57:39,173 - __main__ - INFO - Data extraction completed in 2.1896979808807373s
+2024-07-06 18:57:39,209 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 18:57:39,270 - __main__ - INFO - ETL pipeline finished in 2.2871718406677246s
+2024-07-06 19:04:32,292 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:04:32,356 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:04:32,357 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:32,357 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:32,358 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:32,358 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:32,359 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:32,363 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,379 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,393 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:04:33,407 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:04:33,408 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,431 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,434 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,439 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:33,439 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:34,428 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:34,432 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:04:34,444 - __main__ - INFO - Data extraction completed in 2.1516101360321045s
+2024-07-06 19:04:34,464 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:04:34,511 - __main__ - INFO - ETL pipeline finished in 2.2185676097869873s
+2024-07-06 19:07:14,874 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:07:15,055 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:15,058 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:15,059 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:15,060 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:15,061 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:15,063 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:15,064 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,083 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,100 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:16,117 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,125 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,127 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,131 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,132 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:16,132 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:17,130 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:17,142 - __main__ - INFO - Data extraction completed in 2.2662229537963867s
+2024-07-06 19:07:17,170 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:07:17,217 - __main__ - INFO - ETL pipeline finished in 2.3431644439697266s
+2024-07-06 19:07:27,595 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:07:27,645 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:27,668 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:27,670 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:27,671 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:27,672 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:27,672 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:27,675 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:28,652 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:30,668 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:34,699 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:34,720 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:34,731 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:34,731 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:34,740 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:34,743 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:34,744 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:34,746 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:35,751 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:35,753 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:35,763 - __main__ - INFO - Data extraction completed in 8.166877269744873s
+2024-07-06 19:07:35,776 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:07:35,816 - __main__ - INFO - ETL pipeline finished in 8.220847368240356s
+2024-07-06 19:07:58,435 - __main__ - INFO - ETL pipeline started
+2024-07-06 19:07:58,544 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,545 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,545 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,546 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,547 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,547 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,548 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,565 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:58,568 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:58,569 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:58,576 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,580 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,586 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:58,586 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:59,578 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 19:07:59,581 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:07:59,582 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:08:01,602 - httpx - INFO - HTTP Request: GET http://host.docker.internal:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 19:08:01,617 - __main__ - INFO - Data extraction completed in 3.179797410964966s
+2024-07-06 19:08:01,664 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 19:08:01,719 - __main__ - INFO - ETL pipeline finished in 3.284489631652832s
