@@ -1,0 +1,42 @@
+2024-07-06 20:20:38,694 - __main__ - INFO - ETL pipeline started
+2024-07-06 20:20:38,773 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:20:38,774 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:20:38,803 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:38,808 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:38,808 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:38,809 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:38,809 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:39,781 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:20:39,787 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,791 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,801 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:20:41,816 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,816 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,816 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,816 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,816 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:41,818 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:42,808 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:20:42,812 - __main__ - INFO - Data extraction completed in 4.117674827575684s
+2024-07-06 20:20:42,834 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 20:20:42,859 - __main__ - INFO - ETL pipeline finished in 4.1645050048828125s
+2024-07-06 20:22:20,901 - __main__ - INFO - ETL pipeline started
+2024-07-06 20:22:20,921 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:22:20,942 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 429 Too Many Requests"
+2024-07-06 20:22:20,944 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:20,948 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:20,948 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:20,949 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:20,949 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,937 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,951 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/windgen.csv?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,977 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-05/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-04/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-29/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-01/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-02/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-07-03/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,979 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/2024-06-30/renewables/solargen.json?api_key=ADU8S67Ddy!d7f? "HTTP/1.1 200 OK"
+2024-07-06 20:22:21,986 - __main__ - INFO - Data extraction completed in 1.0841820240020752s
+2024-07-06 20:22:22,000 - __main__ - INFO - Data quality checks passed. Loading data...
+2024-07-06 20:22:22,025 - __main__ - INFO - ETL pipeline finished in 1.1242737770080566s
