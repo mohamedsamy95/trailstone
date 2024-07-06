@@ -47,13 +47,18 @@ The purpose of this ETL (Extract, Transform, Load) project is to extract weather
     pip install -r requirements.txt
     ```
 
-2. **Set Environment Variables**:
+2. **Update PYTHONPATH Variable**:
+   ```sh
+   export PYTHONPATH=path/to/your/project/:$PYTHONPATH
+   ```
+
+3. **Set Environment Variables**:
     ```sh
     export API_KEY='your_api_key'
     export HOST=localhost
     ```
 
-3. **Run the ETL Pipeline**:
+4. **Run the ETL Pipeline**:
     ```sh
     python -m etl.main
     ```
