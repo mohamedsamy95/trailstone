@@ -21,6 +21,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run tests
-      working-directory: ./etl
+      working-directory: ./trailstone/etl
       run: |
         pytest
