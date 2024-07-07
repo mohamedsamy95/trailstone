@@ -6,7 +6,7 @@ from etl.utils import get_first_day_of_week
 
 def create_directory_structure(root: str, category: str, partition: str):
     '''
-    Creates partitioned data where data will be stored
+    Creates partitioned directory path where data will be stored
     '''
     path = os.path.join(root, category, partition)
     os.makedirs(path, exist_ok=True)
