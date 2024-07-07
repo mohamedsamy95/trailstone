@@ -69,11 +69,14 @@ async def fetch_data(
         If the data cannot be parsed as expected.
     '''
 
+    # Build url using HOST, endpoint and api_key
     url = f'http://{os.getenv('HOST')}:8000/{endpoint}?api_key={api_key}'
     response = await client.get(url)
 
     if response.status_code == 429:
         raise TooManyRequestsException('Received 429 Too Many Requests response')  # noqa
+
+    # Raise exception if status is falsy
     response.raise_for_status()
 
     if file_format == 'json':
