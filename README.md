@@ -6,7 +6,7 @@ The purpose of this ETL (Extract, Transform, Load) project is to extract weather
 
 ## Technologies Used
 
-- **Python**: The main programming language used for the ETL pipeline.
+- **Python 3.12**: The main programming language used for the ETL pipeline.
 - **Pandas**: For data manipulation and transformation.
 - **httpx**: For asynchronous HTTP requests.
 - **asyncio**: For asynchronous programming.
@@ -81,3 +81,14 @@ The pipeline includes data quality checks to ensure there are no gaps in the dat
 
 The desired target column types are defined in a `config.py` file. The `transform.py` file includes a function that applies these type castings based on the configuration.
 
+## Continuous Integration
+
+The CI workflow is set up using GitHub Actions. It automatically runs the tests on every push and pull request to ensure code quality and functionality. The workflow performs the following steps:
+
+1. Checks out the code from the repository.
+2. Sets up Python 3.12.
+3. Installs the required dependencies.
+4. Sets the `PYTHONPATH` to the current working directory.
+5. Navigates to the `etl` directory and runs the tests using `pytest`.
+
+You can find the CI workflow configuration in the `.github/workflows/ci.yml` file.
